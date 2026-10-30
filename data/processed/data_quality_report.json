@@ -1,0 +1,128 @@
+{
+  "source_file": "data\\raw\\loan.csv",
+  "raw_dimensions": {
+    "rows": 39717,
+    "columns": 111
+  },
+  "cleaned_dimensions": {
+    "rows": 39717,
+    "columns": 74
+  },
+  "deduplication_audit": {
+    "exact_duplicate_rows_removed": 0,
+    "unique_loan_ids": 39717,
+    "duplicate_loan_ids": 0
+  },
+  "pruned_uninformative_columns": {
+    "count": 62,
+    "columns": [
+      "total_bal_il",
+      "mort_acc",
+      "mths_since_rcnt_il",
+      "mo_sin_old_il_acct",
+      "dti_joint",
+      "mths_since_last_major_derog",
+      "all_util",
+      "total_bal_ex_mort",
+      "acc_open_past_24mths",
+      "bc_util",
+      "num_accts_ever_120_pd",
+      "num_tl_120dpd_2m",
+      "total_bc_limit",
+      "num_bc_tl",
+      "num_op_rev_tl",
+      "max_bal_bc",
+      "pct_tl_nvr_dlq",
+      "tot_cur_bal",
+      "num_sats",
+      "application_type",
+      "open_il_12m",
+      "acc_now_delinq",
+      "verification_status_joint",
+      "il_util",
+      "open_rv_24m",
+      "inq_fi",
+      "total_cu_tl",
+      "num_il_tl",
+      "num_rev_tl_bal_gt_0",
+      "total_il_high_credit_limit",
+      "mo_sin_old_rev_tl_op",
+      "tot_hi_cred_lim",
+      "mths_since_recent_bc_dlq",
+      "open_acc_6m",
+      "bc_open_to_buy",
+      "inq_last_12m",
+      "avg_cur_bal",
+      "mo_sin_rcnt_tl",
+      "mths_since_recent_inq",
+      "annual_inc_joint",
+      "initial_list_status",
+      "open_rv_12m",
+      "percent_bc_gt_75",
+      "mths_since_recent_bc",
+      "tot_coll_amt",
+      "mths_since_recent_revol_delinq",
+      "num_tl_30dpd",
+      "open_il_6m",
+      "num_bc_sats",
+      "delinq_amnt",
+      "mo_sin_rcnt_rev_tl_op",
+      "num_actv_bc_tl",
+      "open_il_24m",
+      "pymnt_plan",
+      "policy_code",
+      "num_tl_op_past_12m",
+      "num_tl_90g_dpd_24m",
+      "num_actv_rev_tl",
+      "num_rev_accts",
+      "total_rev_hi_lim",
+      "url",
+      "desc"
+    ]
+  },
+  "portfolio_composition": {
+    "total_loans": 39717,
+    "status_counts": {
+      "Fully Paid": 32950,
+      "Charged Off": 5627,
+      "Current": 1140
+    },
+    "status_percentages": {
+      "Fully Paid": 82.962,
+      "Charged Off": 14.168,
+      "Current": 2.87
+    }
+  },
+  "completed_loans_audit": {
+    "completed_loans_count": 38577,
+    "fully_paid_count": 32950,
+    "charged_off_count": 5627,
+    "historical_default_rate_pct": 14.5864
+  },
+  "financial_exposure_audit": {
+    "total_portfolio_funded_usd": 434810325.0,
+    "total_payments_collected_usd": 482704393.92,
+    "total_principal_recovered_usd": 388962434.81,
+    "total_interest_earned_usd": 89905910.21,
+    "total_recoveries_collected_usd": 3781917.24,
+    "total_net_credit_loss_usd": 40049086.35
+  },
+  "missing_values_after_cleaning": {
+    "emp_title": 2459,
+    "emp_length": 1075,
+    "title": 11,
+    "mths_since_last_delinq": 25682,
+    "mths_since_last_record": 36931,
+    "revol_util": 50,
+    "last_pymnt_d": 71,
+    "next_pymnt_d": 38577,
+    "last_credit_pull_d": 2,
+    "collections_12_mths_ex_med": 56,
+    "chargeoff_within_12_mths": 56,
+    "pub_rec_bankruptcies": 697,
+    "tax_liens": 39,
+    "emp_length_years": 1075,
+    "default_flag": 1140,
+    "recovery_rate_pct": 34090
+  }
+}
